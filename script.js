@@ -1,12 +1,12 @@
 //your JS code here. If required.
  <script>
-        let counterValue = 0;
+        let InitialValue = 0;
         const counter = document.getElementById("counter");
         const incrementBtn = document.getElementById("incrementBtn");
 
         incrementBtn.addEventListener("click", function () {
-            alert(counterValue);
+            alert( InitialValue);
             counterValue++;
-            counter.textContent = counterValue;
+            counter.textContent =  InitialValue;
         });
     </script>
