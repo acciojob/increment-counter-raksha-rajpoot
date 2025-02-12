@@ -6,7 +6,7 @@
 
         incrementBtn.addEventListener("click", function () {
             alert( InitialValue);
-            counterValue++;
+             InitialValue++;
             counter.textContent =  InitialValue;
         });
     </script>
