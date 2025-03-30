@@ -1,5 +1,5 @@
 //your JS code here. If required.
- <script>
+
         let InitialValue = 0;
         const counter = document.getElementById("counter");
         const incrementBtn = document.getElementById("incrementBtn");
@@ -9,4 +9,4 @@
              InitialValue++;
             counter.textContent =  InitialValue;
         });
-    </script>
+   
